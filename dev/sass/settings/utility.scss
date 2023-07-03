@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    position: relative;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    form {
+        margin: 0;
+    }
+    a {
+        &:focus {
+            outline: 0;
+        }
+    }
+}
+
+.transition {
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+
+.u-right {
+    text-align: right;
+    @media screen and (max-width: 767px) {
+        text-align: left;
+    }
+}
+
+.u-center {
+    text-align: center;
+}
+
+.maxwidth{
+    max-width: 100%;
+}
