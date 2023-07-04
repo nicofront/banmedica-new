@@ -1,0 +1,33 @@
+.stage{
+	padding: 40px 15px;
+	background-color: grey;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	font-family: 'Work Sans', sans-serif;
+	.stage__title{
+		color: #fff;
+		span{
+
+		}
+		br{
+			@media( max-width: 768px) {
+
+			}
+		}
+	}	
+	.stage__wallet{
+		color: #fff;
+		span{
+
+		}
+	}
+	.stage__detail{
+		color: #4c97b7;
+		text-decoration: underline;
+		display: inline-block;
+		&:hover{
+			color: #1e7ba3;
+		}
+	}
+}
