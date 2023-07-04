@@ -21,16 +21,18 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="stage__title">
-                    <span>Hola Renato Danilo,</span> <br>
-                    bienvenido nuevamente.
-                </h2>
-                <h3 class="stage__wallet">
-                    Tienes <span>$15.740</span> en excedentes.
-                </h3>
-                <a href="" class="stage__detail">
-                    Revisa el detalle de tus excedentes
-                </a>
+                <div class="stage__body">
+                    <h2 class="stage__title">
+                        <span>Hola Renato Danilo,</span> <br>
+                        bienvenido nuevamente.
+                    </h2>
+                    <h3 class="stage__wallet">
+                        Tienes <span>$15.740</span> en excedentes.
+                    </h3>
+                    <a href="" class="stage__detail">
+                        Revisa el detalle de tus excedentes
+                    </a>
+                </div>
             </div>
         </div>
     </div>
