@@ -7,9 +7,6 @@
 	background-size: cover;
 	font-family: 'Work Sans', sans-serif;
 	background-image: url('../img/fondo-banmedica.jpg');
-	.stage__body{
-
-	}
 	.stage__title{
 		color: #fff;
 		font-size: 42px;
@@ -17,6 +14,10 @@
 		font-weight: 400;
 		margin: 0;
 		margin-bottom: 24px;
+		@media( max-width: 479px) {
+			font-size: 28px;
+			line-height: 33px;
+		}
 		span{
 			font-weight: 600;
 		}
@@ -37,6 +38,13 @@
 			font-size: 24px;
 			font-weight: 600;
 		}
+		@media( max-width: 479px) {
+			font-size: 16px;
+			line-height: 19px;
+			span{
+				font-size: 19px;
+			}
+		}
 	}
 	.stage__detail{
 		color: #4c97b7;
@@ -48,6 +56,10 @@
 		font-weight: 600;
 		&:hover{
 			color: #1e7ba3;
+		}
+		@media( max-width: 479px) {
+			font-size: 16px;
+			line-height: 19px;
 		}
 	}
 }
