@@ -12,18 +12,8 @@
 	<body>
 		<ul>
 			<li>
-				<a href="modal-chile.php">
-					Modal Chile
-				</a>
-			</li>
-			<li>
-				<a href="modal-brasil.php">
-					Modal Brasil
-				</a>
-			</li>
-			<li>
-				<a href="modal-eng.php">
-					Modal Eng
+				<a href="stage.php">
+					Stage
 				</a>
 			</li>
 		</ul>
